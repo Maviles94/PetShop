@@ -1,0 +1,71 @@
+.title-page {
+    color: rgb(217, 3, 104);
+}
+
+#filter-button,
+#search-button,
+#submit-button {
+    background-color: rgb(217, 3, 104);
+    border-color: rgb(217, 3, 104);
+}
+
+.price-text {
+    font-weight: bold;
+}
+
+.show-more {
+    background-color: rgb(217, 3, 104) !important;
+    border-color: rgb(217, 3, 104) !important;
+}
+
+.card-img-top {
+    height: 10rem;
+    width: fixed;
+}
+
+
+.detail-card {
+    height: auto;
+}
+
+.hover-shadow {
+    box-shadow: 0 2px 5px 0 rgba(217, 3, 104, 0.16), 0 2px 10px 0 rgba(217, 3, 104, 0.12);
+}
+
+.hover-shadow:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 10px 0 rgba(217, 3, 104, 0.25), 0 3px 15px 0 rgba(217, 3, 104, 0.20);
+    transform: scale(1.10);
+    transition-duration: 0.8s;
+}
+
+body {
+    background-color: rgba(217, 3, 104, 0.05) !important;
+}
+
+.filter-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1em 0.6em 0.1em 0.6em;
+    background-color: rgba(217, 3, 104, 0.20);
+    border: 0.08em solid rgba(217, 3, 104, 0.30);
+    border-radius: 4em;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: rgba(217, 3, 104, 1);
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+/* th {
+    background-color: rgba(217, 3, 104, 1) !important;
+    border-color: rgba(217, 3, 104, 0.70) !important;
+}
+
+.table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(217, 3, 104, 0.10) !important;
+} */
